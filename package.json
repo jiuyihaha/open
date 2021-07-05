@@ -1,0 +1,31 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "vue.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" :  "webpack-dev-server --inline --hot --port 8088"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiuyihaha/open.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiuyihaha/open/issues"
+  },
+  "homepage": "https://github.com/jiuyihaha/open#readme",
+  "description": "",
+  "dependencies": {
+    "vue": "^2.6.14",
+    "vue-router": "^3.1.6",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0"
+  }
+}
